@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link of link icon -->
+    <link rel="shortcut icon" href="logo.jpg">
+    <!-- end of shortcut icon -->
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- end of css -->
+
+
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon-ligatures@2.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <!-- end of remix icon cdn -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- google font end -->
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awsome cdon end -->
+
+    <title>nk automotive</title>
+</head>
+
+<body>
+
+
+
+    <!-- landing page -->
+    <div class="landing-page">
+
+        <!-------------navbar----------- -->
+        <nav>
+            <div id="logo"><a href="index.html"><span>NK</span>Automotive</a></div>
+            <i id="menu-bar" onclick="toggle()" class="fa-solid fa-bars"></i>
+            <ul id="nav-menu" class="fee-nav">
+                <i id="cross" onclick="toggle2()"  class="fa-solid fa-x"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="car.html">Car Fee</a></li>
+                <li><a href="bike.html">Bike Fee</a></li>
+                <li><a href="cycle.html">Cycle Fee</a></li>
+            </ul>
+        </nav>
+
+
+
+        <!-- ------------our fee  (css in services) section ------------ -->
+        <div id="services" style="position: relative;top:80px;">
+            <h1>Admission Fee</h1>
+            <div class="service-container">
+
+                <a href="car.html">
+                    <div id="service-box">
+                        <i style="color: beige; position: relative;top:0px; z-index: 2; text-align: center;font-size:4rem;"
+                            class='fas fa-car-alt'></i>
+                        <h2
+                            style="color: azure; position: relative;z-index: 2;font-size: 1.4em; font-family: Roboto Condensed, sans-serif;">
+                            Car Driving Fee</h2>
+                    </div>
+                </a>
+
+                <a href="bike.html">
+                    <div id="service-box">
+                        <i style="color: beige; position: relative;top:0px; z-index: 2; text-align: center;font-size:4rem;"
+                            class="fa-solid fa-motorcycle"></i>
+                        <h2
+                            style="color: azure; position: relative;z-index: 2;font-size: 1.4em; font-family: Roboto Condensed, sans-serif;">
+                            Bike Driving Fee</h2>
+                    </div>
+                </a>
+
+                <a href="cycle.html">
+                    <div id="service-box">
+                        <i style="color: beige; position: relative;top:0px; z-index: 2; text-align: center;font-size:4rem;"
+                            class='fa-solid fa-bicycle'></i>
+                        <h2
+                            style="color: azure; position: relative;z-index: 2;font-size: 1.4em; font-family: Roboto Condensed, sans-serif;">
+                            Bicycle Fee</h2>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <!---------------- end of services section------------- -->
